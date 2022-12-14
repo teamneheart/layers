@@ -6,19 +6,18 @@ import colors from '../../utils/colors'
 
 const CustomDrawer = (props) => {
     return (
-
         <View style={styles.container}>
             <View style={styles.profileContainer}>
-                <TouchableOpacity 
-                onPress={()=> props.navigation.closeDrawer()}
-                style={styles.closeIcon}>
+                <TouchableOpacity
+                    onPress={() => props.navigation.closeDrawer()}
+                    style={styles.closeIcon}>
                     <SvgIcon.CloseIcon />
                 </TouchableOpacity>
             </View>
             <View>
-            <Text style={styles.versionCode}>CustomDrawer</Text>
+                <Text style={styles.versionCode}>Account</Text>
             </View>
-           
+
         </View>
 
     )
@@ -31,20 +30,20 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: colors.coolBlack
     },
-    profileContainer:{
-        backgroundColor:colors.white,
-        height:'20%',
+    profileContainer: {
+        backgroundColor: colors.white,
+        height: '20%',
     },
-    
-versionCode:{
-    color: colors.white,
-    fontSize:13,
-    lineHeight:15
-},
-closeIcon:{
-    position:'absolute',
-    right:10,
-    top:20,
-    padding:10
-}
+
+    versionCode: {
+        color: colors.white,
+        fontSize: 13,
+        lineHeight: 15
+    },
+    closeIcon: {
+        position: 'absolute',
+        right: 10,
+        top: 20,
+        padding: 10
+    }
 });

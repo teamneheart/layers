@@ -19,14 +19,13 @@ const styles = StyleSheet.create({
     buttonContainer: {
         backgroundColor: colors.chatColor,
         height: 45,
-        justifyContent: 'center', 
+        justifyContent: 'center',
         alignItems: 'center',
-        paddingHorizontal: 20, 
+        paddingHorizontal: 20,
         borderRadius: 7,
-        position:'absolute',
-        bottom:40,
-        right:25,
-
+        position: 'absolute',
+        bottom: 40,
+        right: 25,
     }
 
 });

@@ -1,4 +1,5 @@
 export default {
-    Home:'Home',
-    DrawerStack:"DrawerStack"
+    Home: 'Home',
+    DrawerStack: "DrawerStack",
+    Login: 'Login'
 }

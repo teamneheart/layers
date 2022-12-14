@@ -5,7 +5,7 @@ import Route from './src/navigation/Navigation'
 const App = () => {
   return (
 
-         <Route />
+    <Route />
 
 
   )

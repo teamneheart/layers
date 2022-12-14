@@ -12,14 +12,14 @@ export default StyleSheet.create({
     },
     newArive: {
         color: colors.black,
-        fontSize: 18
+        fontSize: 16,
+        marginTop: 10,
+        marginLeft: 10,
+        fontWeight: '800',
+        letterSpacing: 1,
     },
-    carosoleImage: {
+    imageContainer: {
         width: width,
-        height: 100
+        height: 150
     },
-    carosalContaoner: {
-        flex: 1,
-        width: '100%',
-    }
 })
